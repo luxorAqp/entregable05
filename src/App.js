@@ -8,7 +8,7 @@ import UserLogin from "./components/UserLogin/UserLogin";
 function App() {
   return (
     <HashRouter>
-      <div className=" container mt-5">
+      <div>
         <Routes>
           <Route path="/" element={<UserLogin />} />
           <Route element={<ProtectedRoutes />}>
